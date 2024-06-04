@@ -64,8 +64,6 @@ h2 {
 
 textarea {
     width: 100%;
-    min-height: 118px;
-    padding: 12px 17px;
     font-family: "Inter", sans-serif;
     color: #8F8F8F;
     background-color: #444059;
@@ -73,10 +71,27 @@ textarea {
     resize: none;
 }
 
+#endoresement-input {
+    min-height: 118px;
+    padding: 12px 17px;
+}
+
+.from-to {
+    margin-top: 9px;
+    display: flex;
+    gap: 9px;
+}
+
+.from-to textarea {
+    height: 40px;
+    text-align: center;
+    line-height: 36px;
+}
+
 button {
     width: 100%;
     min-height: 61px;
-    margin: 13px 0 27px;
+    margin: 9px 0 19px;
     background-color: #28A9F1;
     color: #04131C;
     font-family: "Inter", sans-serif;
@@ -107,4 +122,8 @@ li {
     color: #1B1924;
     background-color: #FFFFFF;
     padding: 13px 16px;
+}
+
+.bold {
+    font-weight: 700;
 }
