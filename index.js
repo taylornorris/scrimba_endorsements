@@ -33,7 +33,7 @@ btnEl.addEventListener("click", function() {
     clearToInputFieldEl()
 })
 
-// clear input fields, used above in button instructions
+// clear input fields, used in button instructions
 function clearInputFieldEl() { 
     inputFieldEl.value = ""
 }
@@ -61,7 +61,7 @@ onValue(endorsementsInDB, function(snapshot) { // (listen for changes "onValue")
     }
 })
 
-// used above to avoid duplicates
+// used in onValue to avoid duplicates
 function clearEndorsementListEl() {
     endorsementsListEl.innerHTML = ""
 }

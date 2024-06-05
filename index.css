@@ -11,6 +11,7 @@
     white: #FFFFFF
 */
 
+
 /* Basic Styles */
 
 * {
@@ -42,6 +43,11 @@ h2 {
 .radius {
     border-radius: 8px;
 }
+
+.bold {
+    font-weight: 700;
+}
+
 
 /* Element Styles */
 
@@ -85,7 +91,7 @@ textarea {
 .from-to textarea {
     height: 40px;
     text-align: center;
-    line-height: 36px;
+    line-height: 35px;
 }
 
 button {
@@ -124,6 +130,3 @@ li {
     padding: 13px 16px;
 }
 
-.bold {
-    font-weight: 700;
-}
